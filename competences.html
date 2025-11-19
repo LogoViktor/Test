@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilan Compétences - Portfolio R&T</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO <span>R&T</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="entreprise.html">Entreprise</a></li>
+            <li><a href="missions.html">Missions</a></li>
+            <li><a href="competences.html" class="active">Compétences</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Bilan par Compétence</h1>
+        [span_10](start_span)<p>Synthèse des acquis IUT et Entreprise[span_10](end_span)</p>
+    </header>
+
+    <main class="container section-padding">
+        
+        <div class="text-block mb-5">
+            <p>Cette section articule les apprentissages théoriques et les pratiques professionnelles. [span_11](start_span)Elle identifie mon niveau de maîtrise pour chacune des 4 compétences du référentiel R&T[span_11](end_span).</p>
+        </div>
+
+        <section class="competence-block fade-in">
+            <div class="competence-header">
+                <h2>RT1 - Administrer les réseaux et l'Internet</h2>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="grid-2">
+                <div class="card">
+                    [span_12](start_span)<h4>Apports IUT vs Entreprise[span_12](end_span)</h4>
+                    <ul>
+                        <li><strong>IUT :</strong> Compréhension théorique des protocoles (OSPF, BGP), labs sur Packet Tracer.</li>
+                        <li><strong>Entreprise :</strong> Manipulation d'équipements réels en production, gestion des contraintes utilisateurs.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    [span_13](start_span)<h4>Autoévaluation & Progrès[span_13](end_span)</h4>
+                    <p><strong>Niveau :</strong> Confirmé sur le LAN, en apprentissage sur le WAN.</p>
+                    <p><strong>Axes de progrès :</strong> Approfondir l'automatisation (Ansible) pour l'administration.</p>
+                </div>
+            </div>
+            <table class="ac-table mt-3">
+                <thead>
+                    <tr>
+                        <th>Apprentissage Critique (AC)</th>
+                        <th>Validation</th>
+                        <th>Preuve (Mission)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AC11.03 Configurer les fonctions de base du réseau local</td>
+                        <td><span class="status acquired">Acquis</span></td>
+                        <td>Mission 1</td>
+                    </tr>
+                    <tr>
+                        <td>AC11.05 Identifier les dysfonctionnements</td>
+                        <td><span class="status acquired">Acquis</span></td>
+                        <td>Mission 1 & Ticket #402</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="competence-block mt-5 fade-in">
+            <div class="competence-header">
+                <h2>Cyber1 - Administrer un SI sécurisé</h2>
+                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+            </div>
+            <div class="grid-2">
+                <div class="card">
+                    <h4>Bilan</h4>
+                    <p>Découverte des outils de pentesting en cours (SAÉ). Application en entreprise via la gestion des droits Active Directory et la surveillance des logs.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Portfolio Académique BUT R&T</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
