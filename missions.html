@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missions - Portfolio R&T</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO <span>R&T</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="entreprise.html">Entreprise</a></li>
+            <li><a href="missions.html" class="active">Missions</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Missions Réalisées</h1>
+        <p>Analyses réflexives des situations professionnelles vécues</p>
+    </header>
+
+    <main class="container section-padding">
+        
+        <div class="missions-grid mb-5">
+            <a href="#mission1" class="mission-card-link">
+                <div class="mission-summary-card">
+                    <span class="tag">Réseau</span>
+                    <h4>Migration de Switchs</h4>
+                    <p>Octobre 2024 - Novembre 2024</p>
+                </div>
+            </a>
+            <a href="#mission2" class="mission-card-link">
+                <div class="mission-summary-card">
+                    <span class="tag">Cyber</span>
+                    <h4>Mise en place Pare-feu</h4>
+                    <p>Janvier 2025</p>
+                </div>
+            </a>
+        </div>
+
+        <hr>
+
+        <article id="mission1" class="mission-detail mt-5 fade-in">
+            <div class="mission-header">
+                <h2>Mission 1 : Migration de l'infrastructure de commutation</h2>
+                <span class="date">Période : Octobre - Novembre 2024</span>
+            </div>
+
+            <div class="grid-mission">
+                <div class="mission-content">
+                    <h3>1. [span_5](start_span)Contexte et Objectifs[span_5](end_span)</h3>
+                    <p>
+                        <strong>Contexte :</strong> L'entreprise souhaitait renouveler son parc de commutateurs d'accès vieillissants.
+                        <br><strong>Enjeux :</strong> Minimiser la coupure de service pour les utilisateurs.
+                        <br><strong>Acteurs :</strong> DSI, Technicien support, Prestataire externe.
+                    </p>
+
+                    <h3>2. [span_6](start_span)Tâches réalisées[span_6](end_span)</h3>
+                    <ul class="task-list">
+                        <li>Audit de l'existant (VLANs, Port security).</li>
+                        <li>Pré-configuration des nouveaux équipements en laboratoire.</li>
+                        <li>Planification de l'intervention en heures non-ouvrées.</li>
+                        <li>Câblage et tests de connectivité.</li>
+                    </ul>
+
+                    <h3>3. [span_7](start_span)Traces et Preuves[span_7](end_span)</h3>
+                    <div class="proof-container">
+                        <div class="proof-item">
+                            <p><em>Extrait du fichier de configuration (.conf)</em></p>
+                            <button class="btn-small">Voir le document</button>
+                        </div>
+                        <div class="proof-item">
+                            <p><em>Schéma topologique avant/après</em></p>
+                            <button class="btn-small">Voir le schéma</button>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="mission-sidebar">
+                    <div class="competency-box">
+                        [span_8](start_span)<h4>Compétences & AC[span_8](end_span)</h4>
+                        <span class="ac-tag" title="Configurer les fonctions de base du réseau local">AC11.03 (RT1)</span>
+                        <span class="ac-tag" title="Identifier les dysfonctionnements">AC11.05 (RT1)</span>
+                        <p class="justification">
+                            <small>Justification : La configuration des VLANs a nécessité la maîtrise de la CLI Cisco (AC11.03).</small>
+                        </p>
+                    </div>
+
+                    <div class="analysis-box">
+                        [span_9](start_span)<h4>Analyse Réflexive[span_9](end_span)</h4>
+                        <p><strong>Ce que j'ai appris :</strong> L'importance de la préparation en amont pour éviter les erreurs critiques lors du déploiement.</p>
+                        <p><strong>Difficultés :</strong> Un problème de compatibilité STP a été détecté.</p>
+                        <p><strong>Solution :</strong> Recherche dans la documentation constructeur et modification des priorités STP.</p>
+                        <p><strong>Autoévaluation :</strong> J'ai gagné en autonomie sur la gestion de crise.</p>
+                    </div>
+                </aside>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Portfolio Académique BUT R&T</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
